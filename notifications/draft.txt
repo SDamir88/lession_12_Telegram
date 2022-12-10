@@ -1,0 +1,25 @@
+qa_D_11_bot.
+
+5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A
+
+https://core.telegram.org/bots/api
+
+https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUpdates | jq .message.chat.id
+
+https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUpdates
+
+
+"id":-1001859717810,"5945370137
+
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "HELLO QA.GURU", "disable_notification": true}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
+
+java -DconfigFile=notifications/telegram.json -jar notifications/allure-notifications-4.2.1.jar
+
+
+
+https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUpdates
+
+
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot$5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
