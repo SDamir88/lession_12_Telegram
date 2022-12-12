@@ -9,7 +9,7 @@ https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUp
 https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUpdates
 
 
-"id":-1001859717810,"5945370137
+"id":-1001859717810,"1084161745
 
 
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "HELLO QA.GURU", "disable_notification": true}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
@@ -23,3 +23,7 @@ https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUp
 
 
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot$5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
+
+
+
+java -DconfigFile=notifications/telegram_config.json -jar notifications/allure-notifications-4.2.1.jar

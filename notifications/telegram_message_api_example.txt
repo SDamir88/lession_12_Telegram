@@ -6,7 +6,10 @@ curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{"chat_id": "-1001859717810", "text": "This is a test from qa.guru"}' \
      https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
+     https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUpdates
+     https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/getUpdates
 
 // Command in one line
-curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "This is a test from qa.guru"}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
-curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "1084161745", "text": "This is a test from qa.guru"}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "HELLO"}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "1084161745", "text": "hello hello hello "}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "849992376", "text": "ВОТ И ВЫЧИСЛИЛ ТВОЙ АЙПИ "}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
