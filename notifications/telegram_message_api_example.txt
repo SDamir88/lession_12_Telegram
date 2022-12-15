@@ -11,5 +11,6 @@ curl -X POST \
 
 // Command in one line
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "HELLO"}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001859717810", "text": "HELLO"}' https://api.telegram.org/bot5865411518:AAG1gCmdcfy4XUm_HWAxVCNIF_naqSjE2FY/sendMessage
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "1084161745", "text": "hello hello hello "}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "849992376", "text": "ВОТ И ВЫЧИСЛИЛ ТВОЙ АЙПИ "}' https://api.telegram.org/bot5945370137:AAHjJnRBvEyrESOeICGtNcHfXuuGaS7y75A/sendMessage
